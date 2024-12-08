@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAHARAJA Cricket Club</title>
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="memb.css">
+</head>
+
+<body>
+    <!-- <video muted loop autoplay src="./src/backgroundVideo.mp4"></video> -->
+    <div id="nav">
+        <a href="index.html">
+            <img class="logo-img" src="./src/img/logo.png" alt="Logo">
+        </a>
+        <h4><a href="index.html">HOME</a></h4>
+        <!-- <h4><a href="#">CRICKET LESSONS</a></h4> -->
+        <h4><a href="memb.html">MEMBERSHIP</a></h4>
+        <h4 class="sign-in"><a href="signIn.html">SIGN IN</a></h4>
+    </div>
+
+
+    <div id="starttxt">
+        <header class="hero-section">
+            <h1>Join Our Cricket Family Today!<br> <span class="highlight">Unleash</span> Your Passion for Cricket!</h1>
+            <p>Step onto the pitch and be part of a thriving community of cricket lovers.<br> Whether you're a player,
+                fan, or
+                volunteer, we have a place for you!</p>
+            <button class="cta-button"><a href="regist.html">JOIN NOW</a></button>
+        </header>
+
+        <section class="partner-section">
+            <h2>Affordable Membership Plans for Every Cricket Enthusiast</h2>
+            <p>Whether you’re an aspiring cricketer, a seasoned player, or just love the game, we have a plan for you!
+            </p>
+        </section>
+    </div>
+
+
+    <div class="pricing-container">
+        <!-- Basic Plan -->
+        <div class="pricing-plan">
+            <!-- <div class="icon">🛴</div> -->
+            <h3>Junior Membership</h3>
+            <p>(For ages 6-18)</p>
+            <ul>
+                <li>Weekly coaching sessions with Trainers </li>
+                <li>Access to junior tournaments</li>
+                <li>Use of practice facilities</li>
+                <li>Club jersey and welcome kit</li>
+            </ul>
+            <div class="price">₹400 <small>/ month</small></div>
+            <button><a href="regist.html">Pay monthly</a></button>
+        </div>
+
+        <!-- Standard Plan -->
+        <div class="pricing-plan most-popular">
+            <!-- <div class="icon">🛵</div> -->
+            <h3>Adult Membership</h3>
+            <p>(For ages 18+)</p>
+            <ul>
+                <li>Access to competitive leagues and tournaments</li>
+                <li>Advanced training sessions</li>
+                <li>Full use of club facilities (nets, gym, etc.)</li>
+                <li>Invitations to social and networking events</li>
+            </ul>
+            <div class="price">₹800 <small>/ month</small></div>
+            <button><a href="regist.html">Pay monthly</a></button>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="pricing-plan">
+            <!-- <div class="icon">🏍️</div> -->
+            <h3>Supporter Membership</h3>
+            <p>(For non-players)</p>
+            <ul>
+                <li>Access to all club events and matches</li>
+                <li>Exclusive supporter merchandise</li>
+                <li>Opportunities to volunteer and support club activities</li>
+            </ul>
+            <div class="price">₹300 <small>/ month</small></div>
+            <button><a href="regist.html">Pay monthly</a></button>
+        </div>
+    </div>
+
+
+
+    <div class="container1">
+        <div id="container1_txt">
+            <h1>Why Join</h1>
+            <h1 class="highlight"> MAHARAJA CRICKET CLUB?</h1>
+            <h1> Discover the Difference!</h1>
+            <p>Transform your cricket journey with unparalleled opportunities and unmatched benefits</p>
+        </div><br>
+        <div class="content">
+            <!-- Features Section -->
+            <div class="features">
+                <div class="feature-item">
+                    <img src="./src/img/wallet-money.svg" alt="Low-cost fees">
+                    <h3>Exclusive Member Perks</h3>
+                    <p>Unlock discounts on cricket gear, access to workshops, and free passes to premium cricket events
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <img src="./src/img/scheduled-payouts.svg" alt="Payment Processing">
+                    <h3>Pathway to Professional Cricket</h3>
+                    <p>Get noticed by top selectors and scouts through our talent development programs and partnerships
+                        with
+                        professional teams
+
+                    </p>
+                </div>
+                <div class="feature-item">
+                    <img src="./src/img/payment-marketplace.svg" alt="Scheduled Payouts">
+                    <h3>Community & Networking</h3>
+                    <p>Become part of a passionate cricket community where you can meet like-minded players and make
+                        lifelong
+                        connections</p>
+                </div>
+            </div>
+
+            <!-- Image Section -->
+            <div class="image-section">
+                <img src="./src/img/club.jpg" alt="Payout Schedule Example">
+            </div>
+        </div>
+    </div>
+    <div id="signup_txt"><button class="cta-button"><a href="regist.html">SIGN UP</a></button></div>
+
+
+    <div class="faq-section">
+        <br>
+        <h2>Frequently Asked Questions</h2>
+        <br>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)">1. Can I upgrade my membership later?</button>
+            <p class="answer">Yes! You can easily upgrade to a different plan at any time.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)">2. Do I need prior cricket experience to join?</button>
+            <p class="answer">Not at all! We welcome players of all levels, from beginners to seasoned professionals.
+            </p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)">3. Is there a trial period?</button>
+            <p class="answer">Yes, you can join one-week trial session before committing to a full membership.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)">4. What is the duration of each training session?</button>
+            <p class="answer">Training sessions typically last 1.5 to 2 hours depending on your age group and skill
+                level. However, we also offer flexible training schedules to suit your availability.</p>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleAnswer(this)">5. How do I get in touch with my coach or team captain?</button>
+            <p class="answer">Once you're a member, you'll have access to our member portal, where you can directly
+                message your coach or team captain. You can also communicate by contacting the club directly.</p>
+        </div>
+    </div>
+    <hr>
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Section -->
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>
+                        Welcome to MAHARAJA CRICKET CLUB, a place where passion meets
+                        professionalism. Join us to hone your skills, participate in
+                        exciting matches, and be part of a vibrant cricketing community.
+                    </p>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="signIn.html">Login</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#facilities">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><strong>Email:</strong> info@yourcricketclub.com</p>
+                    <p><strong>Phone:</strong> +123 456 7890</p>
+                    <p><strong>Address:</strong> Rambagh Palace Grounds,<br>
+                        Bhawani Singh Road,<br>
+                        C-Scheme, Jaipur,<br>
+                        Rajasthan 302005, India<br></p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 MAHARAJA CRICKET CLUB. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleAnswer(button) {
+            const answer = button.nextElementSibling;
+            if (answer.style.display === "block") {
+                answer.style.display = "none";
+            } else {
+                answer.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
