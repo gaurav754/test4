@@ -28,7 +28,7 @@ app.get("/index", (req, res) => {
 });
 
 app.get("/regist", (req, res) => {
-    res.render("regist");
+    res.sendFile(path.join(__dirname, "../public/regist.html"));
 });
 
 app.post("/regist", async (req, res) => {
